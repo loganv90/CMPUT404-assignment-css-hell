@@ -21,4 +21,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Changes To HTML Files
+=====================
 
+I added links to google fonts, and links to my stylesheet.

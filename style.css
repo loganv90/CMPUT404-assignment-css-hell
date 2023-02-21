@@ -1,0 +1,50 @@
+body {
+    background-color: beige;
+}
+
+a:link {
+    color: darkblue
+}
+a:visited {
+    color: darkblue
+}
+a:hover {
+    color: purple
+}
+
+p {
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Old Standard TT', serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+h4 {
+    font-size: 120%;
+}
+
+img {
+    filter: sepia(35%) brightness(97%);
+    margin: 20pt;
+}
+
+.dropcap {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 500%
+}
