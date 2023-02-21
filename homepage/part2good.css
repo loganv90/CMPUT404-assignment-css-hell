@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+.titlebar {
+    background: rgb(9,0,23);
+    background: linear-gradient(90deg, rgba(9,0,23,1) 0%, rgba(77,0,201,1) 50%, rgba(9,0,23,1) 100%);
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 0pt 2pt 8pt #000000;
+
+    padding: 2em;
+}
+h1 {
+    font-size: 300%;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 140%;
+    margin-top: 0;
+}
+
+.linkbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #330088;
+    text-align: center;
+    font-size: 100%;
+
+    padding: 1em;
+}
+a {
+    color: white;
+    text-shadow: 0pt 2pt 8pt #000000;
+}
+a:hover {
+    color: #af8cff;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-weight:bolder;
+}
+p {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.contentbox {
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionbox {
+    flex-grow: 1;
+}
+
+.row {
+    display: flex;
+    gap: 1em;
+    margin: 1em;
+}
+
+.row img {
+    height: 16em;
+    margin: 2em 0;
+}
+
+.section {
+    flex-grow: 1;
+    padding: 1em;
+}
+
+.sidebarbox {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    max-width: 30em;
+}
+
+.sidebar {
+    text-align: center;
+    background-color: #EEEEEE;
+    flex-grow: 1;
+}
+
+.sidebarList {
+    text-align: left;
+    line-height: 4;
+}
